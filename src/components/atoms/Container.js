@@ -12,8 +12,8 @@ const Container = ({ header, footer, content }) => (
       // Background Linear Gradient
       colors={['#DAF7A6', '#FFC300', '#FF5733', '#C70039']}
       style={{
-        width: Dimensions.get('window').width,
-        height: Dimensions.get('window').height,
+        width: Dimensions.get('screen').width,
+        height: Dimensions.get('screen').height,
       }}>
       <Header>{header}</Header>
       <Content>{content}</Content>
